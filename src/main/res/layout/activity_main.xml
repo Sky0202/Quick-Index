@@ -5,9 +5,11 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="2dp"
+    android:clipToPadding="true"
+    android:fitsSystemWindows="true"
     tools:context="com.sky.quickindex.MainActivity">
 
-    <ListView
+    <com.github.ksoichiro.android.observablescrollview.ObservableListView
         android:id="@+id/lv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
